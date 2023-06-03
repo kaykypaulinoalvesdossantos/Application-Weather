@@ -11,7 +11,11 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      },colors: {
+        'brown-800': '#050505e6',
+      },boxShadow: {
+        'clock' :' 0 8px 10px rgba(0, 0, 0, 0.5)',
+      }
     },
   },
   plugins: [],
